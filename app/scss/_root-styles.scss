@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Leiko';
+    src: url(/app/fonts/Leiko-Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: 'DancingScript';
+    src: url(/app/fonts/DancingScript-Regular.ttf);
+}
+
+:root {
+    --color-primary: #54372B;
+    --color-secondary: #F7E1BC;
+    --color-text: #DABB9E;
+    --color-menu: #FFF8E8;
+    --color-button-text: #F8E4BE;
+    --color-white: #fff;
+    --color-background: #221518;
+    --color-background-secondary: #7C573C;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Leiko';
+    font-size: 1.2rem;
+    user-select: none;
+    color: var(--color-white);
+    background-color: var(--color-background);
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 6.2rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
+h5 {
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: .8rem;
+}
+
+a {
+    text-decoration: none;
+}
